@@ -1,5 +1,5 @@
-import User from "../../src/entities/User"
-import IUserRepositories from "../../src/repositories/IUserRepositories"
+import User from "../../entities/User";
+import IUserRepositories from "../../repositories/IUserRepositories"
 
 interface CreateUserDTO {
   name: string;

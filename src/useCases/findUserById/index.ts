@@ -1,4 +1,4 @@
-import UserPostgresRepository from "../../src/repositories/implementations/UserPostgresRepositories"
+import UserPostgresRepository from "../../repositories/implementations/UserPostgresRepositories"
 import FindUserByIdController from "./FindUserByIdController"
 import FindUserByIdUseCase from "./FindUserByIdUseCase"
 

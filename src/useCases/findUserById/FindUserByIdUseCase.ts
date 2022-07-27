@@ -1,4 +1,4 @@
-import IUserRepositories from "../../src/repositories/IUserRepositories"
+import IUserRepositories from "../../repositories/IUserRepositories"
 
 class FindUserByIdUseCase {
   constructor(private usersRepository: IUserRepositories) {}

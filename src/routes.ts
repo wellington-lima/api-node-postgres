@@ -1,6 +1,6 @@
 import { Router } from 'express'
-import createUserController from '../useCases/createUser'
-import findUserByIdController from '../useCases/findUserById'
+import createUserController from './useCases/createUser'
+import findUserByIdController from './useCases/findUserById'
 
 const router = Router()
 
